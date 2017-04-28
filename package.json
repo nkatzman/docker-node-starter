@@ -1,0 +1,23 @@
+{
+  "name": "docker-node-starter",
+  "version": "1.0.0",
+  "description": "A simple starter app that demonstrates docker usage",
+  "main": "server.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "echo \"testing testing 1.2.3..\"",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "clone": "^2.0.0",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb-base": "^7.0.0",
+    "eslint-plugin-import": "^1.14.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
